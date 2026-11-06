@@ -1,0 +1,6 @@
+node_modules/
+scrollcraft/builds/*/node_modules/
+scrollcraft/builds/*/out/
+scrollcraft/builds/*/lab/
+.DS_Store
+Thumbs.db

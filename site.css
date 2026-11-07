@@ -71,8 +71,12 @@ p { margin: 0; }
   background: color-mix(in oklab, var(--sc-canvas) 94%, transparent);
   box-shadow: 0 1px 0 var(--sc-hairline);
 }
-.mark { display: inline-flex; align-items: center; gap: .7rem; text-decoration: none; color: var(--sc-ink); }
-.mark__glyph { width: 2.1rem; height: 2.1rem; }
+.mark { display: inline-flex; align-items: center; gap: .75rem; text-decoration: none; color: var(--sc-ink); }
+.mark__logo {
+  width: 2.65rem; height: 2.65rem; border-radius: 50%;
+  box-shadow: 0 2px 10px hsl(0 0% 0% / .35);
+  flex: none;
+}
 .mark__name {
   display: flex; flex-direction: column;
   font-family: var(--sc-font-display); font-weight: 650; font-stretch: 105%;
@@ -476,9 +480,11 @@ body.on-light .datum__read { background: var(--paper); color: var(--accent-deep)
   margin-top: clamp(4rem, 9vw, 8rem);
   padding-block: var(--sc-6) calc(var(--sc-6) + env(safe-area-inset-bottom));
   border-top: 1px solid var(--sc-hairline);
-  display: flex; flex-wrap: wrap; gap: .4rem 2rem; align-items: baseline;
+  display: flex; flex-wrap: wrap; gap: .6rem 2rem; align-items: center;
   font-size: var(--sc-t-xs); color: var(--sc-ink-soft);
 }
+.foot__brand { display: inline-flex; align-items: center; gap: .65rem; }
+.foot__logo { width: 2.1rem; height: 2.1rem; border-radius: 50%; flex: none; }
 .foot__name { color: var(--sc-ink); font-weight: 600; }
 .foot__copy { margin-left: auto; }
 
@@ -512,7 +518,7 @@ body.on-light .datum__read { background: var(--paper); color: var(--accent-deep)
 @media (max-width: 760px) {
   :root { --bar-h: 3.75rem; }
   .bar__cta { display: none; }
-  .mark__glyph { width: 1.8rem; height: 1.8rem; }
+  .mark__logo { width: 2.25rem; height: 2.25rem; }
 
   .hero__word { top: calc(var(--bar-h) + 5vh); font-size: 27vw; letter-spacing: -0.04em; }
   .hero__sky img { object-position: 50% 80%; }

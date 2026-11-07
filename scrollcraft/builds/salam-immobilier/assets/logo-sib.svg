@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Salam Immobilier Bouaké (SIB)">
+  <!-- Outer dark crimson ring and light pearl disc -->
+  <circle cx="120" cy="120" r="112" fill="#EAEAEA" stroke="#7B0D0D" stroke-width="11"/>
+  <!-- Double roof + chimney + L-shaped house frame -->
+  <!-- Main roof + chimney -->
+  <path d="M53 128 L82 99 L82 78 L91 78 L91 90 L114 67 L157 110 L144 110 L114 80 L66 128 Z" fill="#181615"/>
+  <!-- Second parallel roof line on the right -->
+  <path d="M126 67 L139 67 L182 110 L169 110 Z" fill="#181615"/>
+  <!-- Left vertical wall + bottom horizontal base (L-shape) -->
+  <path d="M82 117 L91 108 L91 154 L158 154 L158 163 L82 163 Z" fill="#181615"/>
+  <!-- 4-pane window grid -->
+  <rect x="102" y="119" width="9.5" height="9.5" fill="#181615"/>
+  <rect x="114.5" y="119" width="9.5" height="9.5" fill="#181615"/>
+  <rect x="102" y="131.5" width="9.5" height="9.5" fill="#181615"/>
+  <rect x="114.5" y="131.5" width="9.5" height="9.5" fill="#181615"/>
+  <!-- Four-leaf clover above the window -->
+  <g fill="#181615">
+    <circle cx="113" cy="95" r="5.2"/>
+    <circle cx="113" cy="107" r="5.2"/>
+    <circle cx="107" cy="101" r="5.2"/>
+    <circle cx="119" cy="101" r="5.2"/>
+    <path d="M113 107 Q112 114 108 118" fill="none" stroke="#181615" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- Bold condensed crimson "SIB." -->
+  <text x="128" y="149" font-family="Archivo, Impact, 'Arial Narrow', sans-serif" font-weight="900" font-stretch="condensed" font-size="35" letter-spacing="0.5" fill="#8E1111">SIB.</text>
+  <!-- Subtitle "SALAM IMMOBILIER BOUAKÉ" -->
+  <text x="120" y="176" text-anchor="middle" font-family="Archivo, 'Arial Narrow', sans-serif" font-weight="800" font-size="10.2" letter-spacing="0.4" fill="#7B0D0D">SALAM IMMOBILIER BOUAKÉ</text>
+</svg>
